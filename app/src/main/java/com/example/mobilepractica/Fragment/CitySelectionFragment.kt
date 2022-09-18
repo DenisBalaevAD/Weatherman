@@ -19,7 +19,6 @@ import kotlinx.android.synthetic.main.fragment_city_selection.*
 import java.lang.Exception
 import kotlin.collections.ArrayList
 
-
 @Suppress("DEPRECATION")
 class CitySelectionFragment : Fragment() {
 
