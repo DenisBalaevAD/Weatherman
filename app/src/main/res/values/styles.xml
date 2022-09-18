@@ -1,0 +1,185 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#122259</item>
+        <item name="colorPrimaryDark">#122259</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="TextAdvanced">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="ContainerLinerLayoutImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ContainerLinerLayoutImage_Normal" parent="ContainerLinerLayoutImage">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:padding">1dp</item>
+    </style>
+    <style name="ContainerLinerLayoutImage_Small" parent="ContainerLinerLayoutImage">
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="ContainerLinerLayoutImage_Large" parent="ContainerLinerLayoutImage">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="ContainerLinerLayoutImage_XLarge" parent="ContainerLinerLayoutImage">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="LinerLayoutCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:background">#D5CDE4</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LinerLayoutCard_Small" parent="LinerLayoutCard">
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">9dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+
+    <style name="LinerLayoutCard_Normal" parent="LinerLayoutCard">
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_margin">7dp</item>
+    </style>
+
+    <style name="LinerLayoutCard_Large" parent="LinerLayoutCard">
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_marginBottom">7sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_margin">7dp</item>
+    </style>
+
+    <style name="LinerLayoutCard_XLarge" parent="LinerLayoutCard">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="TextTitle_Description_Normal" parent="Wrap">
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+
+    <style name="TextTitle_Description_Small" parent="Wrap">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Image_Card">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">75dp</item>
+    </style>
+
+    <style name="Image_Card_Small">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="Image_Card_Large">
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+
+    <style name="Image_Card_XLarge">
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+
+    <style name="TextValue" parent="TextTitle">
+        <item name="android:padding">1dp</item>
+    </style>
+    <style name="TextValue_Small" parent="TextTitle">
+        <item name="android:padding">1dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="TextValue_Large" parent="TextTitle">
+        <item name="android:padding">1dp</item>
+        <item name="android:textSize">27sp</item>
+    </style>
+
+    <style name="TextValue_XLarge" parent="TextTitle">
+        <item name="android:padding">1dp</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextTitle_Normal" parent="TextTitle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextTitle_Small" parent="TextTitle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextTitle_Large" parent="TextTitle">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+
+    <style name="TextTitle_XLarge" parent="TextTitle">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+
+    <style name="Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="FragmentCityLinerLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="FragmentCityListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layoutManager">5</item>
+    </style>
+</resources>

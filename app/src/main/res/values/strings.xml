@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MobilePractica</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selected_cities">Избранные города</string>
+    <string name="text_city">City</string>
+    <string name="text_description">Description</string>
+    <string name="text_2">2</string>
+    <string name="text_c">°C</string>
+    <string name="text_adviceText">Совет:</string>
+    <string name="advice">advice</string>
+    <string name="clouds_image">clouds_image</string>
+    <string name="clouds">clouds</string>
+    <string name="text_clouds">Облачность</string>
+    <string name="pressure_image">pressure_image</string>
+    <string name="text_pressure">Давление</string>
+    <string name="humidity_image">humidity_image</string>
+    <string name="humidly">humidly</string>
+    <string name="text_humidly">Влажность</string>
+    <string name="wind_image">wind_image</string>
+    <string name="wind">wind</string>
+    <string name="text_wind">Скорость ветра</string>
+    <string name="pressure">pressure</string>
+    <string name="weather">Погода</string>
+    <string name="city_selection">Выбор города</string>
+</resources>
